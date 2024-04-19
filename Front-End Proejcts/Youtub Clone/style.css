@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0f0f0ff6;
+}
+
+header {
+    margin: 10px;
+    border: 2px sloid red;
+    /* width:100vw; */
+    /* height: 20vh; */
+
+}
+
+nav {
+    /* border: 2px solid red; */
+    /* width: 100vw; */
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center
+        /* justify-content:space-between; */
+}
+
+
+/* search and voice button */
+#yt_search_voice {
+    margin: auto;
+    /* width: 71px; */
+    height: 24px;
+    display: flex;
+    border: 2px solid #303030;
+    border-radius: 32px;
+    padding: 8px;
+
+}
+
+/* search input */
+#yt_serach_input {
+    padding-right: 305px;
+    background-color: hsl(0deg 0% 5.88%);
+    height: 20px;
+
+    width: 227px;
+    border: none;
+    font-size: 17px;
+    color: white;
+
+}
+
+/* search button  */
+#search_button {
+    display: flex;
+    JUSTIFY-CONTENT: CENTER;
+    ALIGN-ITEMS: CENTER;
+    margin: -8px;
+    border-radius: 2px 20px 19px 2px;
+    /* border: 2px solid red; */
+    width: 87px;
+    height: 40px;
+    color: WHITE;
+    background-color: #303030;
+}
+
+
+/* youtub icon and more  3 line button  */
+#yt_more_icon {
+    display: flex;
+    width: 214px;
+    height: 41px;
+}
+
+
+#voic_button_div {
+    position: relative;
+    height: 45px;
+    width: 42px;
+    left: -313px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(39 39 39);
+    border-radius: 25px;
+}
+
+#voic_button {
+    filter: invert(1);
+    display: block;
+    width: 27px;
+    height: 22px;
+}
+
+#nav_buttons {
+    margin-top: 22px;
+    color: white;
+    list-style: none;
+    /* grid-column-start: 1; */
+    grid-column-end: 1;
+
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+#nav_buttons li {
+    margin-bottom: 25px;
+    margin-left: 9px;
+    font-size: 12px;
+    font-weight: 100;
+
+}
+
+.body {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    row-gap: 43px;
+    column-gap: 58px;
+
+}
+
+/* .box {
+
+ 
+} */
+
+
+.imge {
+    width: 307px;
+    border-radius: 8px;
+}
+
+.duration {
+
+    position: relative;
+    left: 263px;
+    bottom: 24px;
+    background-color: #2d2b2b;
+    color: white;
+    opacity: 0.8;
+
+}
+
+.title {
+    color: white;
+    font-size: 20px;
+}
+
+.details {
+    font-size: 15px;
+    display: flex;
+    gap: 10px;
+    color: #989898;
+    align-items: center;
+    padding-top: 8px;
+}
+.channel
+{
+    padding-top: 8px;
+    color: #989898;
+
+}
